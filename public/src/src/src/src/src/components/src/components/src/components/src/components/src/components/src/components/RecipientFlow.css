@@ -1,0 +1,323 @@
+.recipient-flow {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.recipient-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recipient-header .logo {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.recipient-header .logo:hover {
+  transform: scale(1.05);
+}
+
+.recipient-header h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #6a1b9a;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.back-btn {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #666;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1px;
+}
+
+.back-btn:hover {
+  background: #6a1b9a;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.recipient-content {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.recipient-hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipient-hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.recipient-hero p {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.coming-soon-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid rgba(106, 27, 154, 0.1);
+}
+
+.icon-large {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.coming-soon-card h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.coming-soon-card > p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.process-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.process-step {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  padding: 25px;
+  background: linear-gradient(135deg, #f3e5f5, #e8eaf6);
+  border-radius: 15px;
+  border-left: 4px solid #6a1b9a;
+}
+
+.step-number {
+  background: linear-gradient(135deg, #6a1b9a, #4a148c);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 20px;
+  flex-shrink: 0;
+  box-shadow: 0 3px 10px rgba(106, 27, 154, 0.3);
+}
+
+.step-content h4 {
+  font-family: 'Inter', sans-serif;
+  color: #6a1b9a;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.step-content p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.features-coming {
+  margin: 50px 0;
+}
+
+.features-coming h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid rgba(106, 27, 154, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(106, 27, 154, 0.3);
+}
+
+.feature-card .feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-card h4 {
+  font-family: 'Inter', sans-serif;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.requirements-info {
+  margin: 50px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-radius: 15px;
+  border-left: 5px solid #ff9800;
+}
+
+.requirements-info h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #f57c00;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.requirements-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.req-item {
+  font-family: 'Inter', sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #333;
+  border-left: 3px solid #4caf50;
+}
+
+.notify-section {
+  margin-top: 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  border-radius: 15px;
+  border-left: 5px solid #2196f3;
+}
+
+.notify-section h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #1976d2;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.notify-form {
+  display: flex;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.notify-input {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.notify-input:focus {
+  border-color: #2196f3;
+}
+
+.notify-btn {
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.notify-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .recipient-header {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .recipient-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .coming-soon-card {
+    padding: 30px 20px;
+  }
+  
+  .process-preview {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .requirements-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .notify-form {
+    flex-direction: column;
+  }
+}
